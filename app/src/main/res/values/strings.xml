@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">tttest</string>
+
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+
+  <string name="action_settings">Settings</string>
+
+  <string name="OPTIMIZE_PROFILE_VIEW_DESCRIPTION">Add more photos and personal information to increase your chances of connecting to others</string>
+  <string name="OPTIMIZE_PROFILE_VIEW_ENTER">Let\'s Do It</string>
+  <string name="OPTIMIZE_PROFILE_VIEW_TITLE">Show More of Yourself</string>
+</resources>

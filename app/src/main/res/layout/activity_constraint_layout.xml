@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <ImageView
+    android:id="@+id/close"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:srcCompat="@drawable/ic_profile_opt_guide_close"/>
+
+  <TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:gravity="center"
+    android:text="@string/OPTIMIZE_PROFILE_VIEW_TITLE"
+    android:textColor="@color/dark_1"
+    android:textSize="@dimen/profile_opt_title_text_size"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0984375"
+    tools:text="展现更多一面呵呵呵呵呵呵呵呵"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_4"
+    android:layout_width="98dp"
+    android:layout_height="98dp"
+    android:src="@drawable/ic_profile_opt_guide_4"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.9"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.45"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_7"
+    android:layout_width="98dp"
+    android:layout_height="98dp"
+    android:src="@drawable/ic_profile_opt_guide_7"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.75"/>
+
+  <android.support.constraint.Guideline
+    android:id="@+id/avatar_guideline_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.23333333333333334"/>
+
+  <ImageView
+    android:id="@+id/avatar"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:scaleType="fitXY"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintDimensionRatio="H, 192:227"
+    app:layout_constraintEnd_toStartOf="@+id/avatar_guideline_right"
+    app:layout_constraintStart_toEndOf="@+id/avatar_guideline_left"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.4109375"
+    app:srcCompat="@drawable/ic_launcher_background"/>
+
+  <android.support.constraint.Guideline
+    android:id="@+id/avatar_guideline_right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_percent="0.7666666666666666"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_1"
+    android:layout_width="98dp"
+    android:layout_height="98dp"
+    android:src="@drawable/ic_profile_opt_guide_1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.16"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.16"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_2"
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:srcCompat="@drawable/ic_profile_opt_guide_2"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_3"
+    android:layout_width="68dp"
+    android:layout_height="98dp"
+    android:src="@drawable/ic_profile_opt_guide_3"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_5"
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:srcCompat="@drawable/ic_profile_opt_guide_5"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_6"
+    android:layout_width="98dp"
+    android:layout_height="98dp"
+    android:src="@drawable/ic_profile_opt_guide_6"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_8"
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    app:srcCompat="@drawable/ic_profile_opt_guide_8"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_9"
+    android:layout_width="68dp"
+    android:layout_height="98dp"
+    android:src="@drawable/ic_profile_opt_guide_9"/>
+
+  <ImageView
+    android:id="@+id/ic_profile_opt_guide_10"
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    app:srcCompat="@drawable/ic_profile_opt_guide_10"/>
+
+  <TextView
+    android:id="@+id/desc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:gravity="center"
+    android:lineSpacingExtra="3sp"
+    android:text="@string/OPTIMIZE_PROFILE_VIEW_DESCRIPTION"
+    android:textColor="@color/dark_2"
+    android:textSize="@dimen/profile_opt_desc_text_size"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.771875"
+    tools:text="添加照片，完善简介\n可以增加配对哦"/>
+
+  <TextView
+    android:id="@+id/go_now"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="65dp"
+    android:layout_marginEnd="65dp"
+    android:paddingTop="17dp"
+    android:paddingBottom="17dp"
+    android:background="@drawable/bg_button_logout"
+    android:gravity="center"
+    android:text="@string/OPTIMIZE_PROFILE_VIEW_ENTER"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/profile_opt_btn_text_size"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.89375"
+    tools:text="现在就去"/>
+
+</android.support.constraint.ConstraintLayout>
