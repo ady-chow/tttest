@@ -100,7 +100,12 @@
     android:id="@+id/ic_profile_opt_guide_2"
     android:layout_width="16dp"
     android:layout_height="16dp"
+    app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.85"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.2"
     app:srcCompat="@drawable/ic_profile_opt_guide_2"/>
 
   <ImageView
@@ -119,7 +124,12 @@
     android:id="@+id/ic_profile_opt_guide_5"
     android:layout_width="10dp"
     android:layout_height="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.95"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.46875"
     app:srcCompat="@drawable/ic_profile_opt_guide_5"/>
 
   <ImageView
@@ -139,6 +149,12 @@
     android:id="@+id/ic_profile_opt_guide_8"
     android:layout_width="16dp"
     android:layout_height="16dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.15"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.5078125"
     app:srcCompat="@drawable/ic_profile_opt_guide_8"/>
 
   <ImageView
@@ -147,9 +163,6 @@
     android:layout_height="98dp"
     android:src="@drawable/ic_profile_opt_guide_9"
     app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0"
-    app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintVertical_bias="0.434375"/>
 
@@ -157,6 +170,12 @@
     android:id="@+id/ic_profile_opt_guide_10"
     android:layout_width="10dp"
     android:layout_height="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.2953125"
     app:srcCompat="@drawable/ic_profile_opt_guide_10"/>
 
   <TextView
