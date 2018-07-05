@@ -41,7 +41,7 @@
     app:layout_constraintHorizontal_bias="0.9"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.45"/>
+    app:layout_constraintVertical_bias="0.43125"/>
 
   <ImageView
     android:id="@+id/ic_profile_opt_guide_7"
@@ -53,7 +53,7 @@
     app:layout_constraintHorizontal_bias="0.1"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.75"/>
+    app:layout_constraintVertical_bias="0.6140625"/>
 
   <android.support.constraint.Guideline
     android:id="@+id/avatar_guideline_left"
@@ -93,7 +93,7 @@
     app:layout_constraintHorizontal_bias="0.16"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.16"
+    app:layout_constraintVertical_bias="0.21875"
     />
 
   <ImageView
@@ -113,7 +113,7 @@
     app:layout_constraintHorizontal_bias="1"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.18"/>
+    app:layout_constraintVertical_bias="0.2421875"/>
 
   <ImageView
     android:id="@+id/ic_profile_opt_guide_5"
@@ -132,7 +132,7 @@
     app:layout_constraintHorizontal_bias="0.85"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.75"
+    app:layout_constraintVertical_bias="0.625"
     />
 
   <ImageView
@@ -151,7 +151,7 @@
     app:layout_constraintHorizontal_bias="0"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.45"/>
+    app:layout_constraintVertical_bias="0.434375"/>
 
   <ImageView
     android:id="@+id/ic_profile_opt_guide_10"
