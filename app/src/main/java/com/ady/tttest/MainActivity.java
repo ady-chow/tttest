@@ -1,5 +1,6 @@
 package com.ady.tttest;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -130,9 +131,9 @@ public class MainActivity extends BaseActivity
     } else if (id == R.id.nav_manage) {
 
     } else if (id == R.id.nav_share) {
-
+      startActivity(new Intent(this, EditTextActivity.class));
     } else if (id == R.id.nav_send) {
-
+      startActivity(new Intent(this, ConstraintLayoutActivity.class));
     }
 
     DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
