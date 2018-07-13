@@ -1,9 +1,10 @@
 package com.ady.tttest.base;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import com.ady.tttest.rx.Rxu;
 import rx.Observable;
 import rx.functions.Func0;
@@ -91,5 +92,26 @@ public class BaseActivity extends AppCompatActivity {
     super.onDestroy();
     lifecycleSubject.onNext(LifecycleEvent.Destroy);
     lifecycleSubject.onCompleted();
+  }
+
+  public void showBackAndTitleInTitleBar(String title) {
+    ActionBar actionBar = getSupportActionBar();
+    if (actionBar != null) {
+      actionBar.setDisplayHomeAsUpEnabled(true);
+      actionBar.setTitle(title);
+    }
+  }
+
+  public void showBackAndTitleInTitleBar(int titleRes) {
+    showBackAndTitleInTitleBar(getString(titleRes));
+  }
+
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    if (item.getItemId() == android.R.id.home) {
+      finish();
+      return true;
+    }
+    return super.onOptionsItemSelected(item);
   }
 }

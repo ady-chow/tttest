@@ -8,26 +8,19 @@ import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import com.ady.tttest.base.BaseActivity;
 
 /**
  * Created by ady on 2018/7/4.
  */
 
-public class ConstraintLayoutActivity extends AppCompatActivity {
+public class ConstraintLayoutActivity extends BaseActivity {
 
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_constraint_layout);
-    initTitleBar();
-  }
-
-  private void initTitleBar() {
-    ActionBar actionBar = getSupportActionBar();
-    if (actionBar != null) {
-      actionBar.setDisplayHomeAsUpEnabled(true);
-      actionBar.setTitle("test");
-    }
+    showBackAndTitleInTitleBar("ConstraintLayout test");
   }
 
   @Override
