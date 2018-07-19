@@ -129,7 +129,7 @@ public class MainActivity extends BaseActivity
     } else if (id == R.id.nav_slideshow) {
 
     } else if (id == R.id.nav_manage) {
-
+      startActivity(new Intent(this, WebViewActivity.class));
     } else if (id == R.id.nav_share) {
       startActivity(new Intent(this, EditTextActivity.class));
     } else if (id == R.id.nav_send) {
